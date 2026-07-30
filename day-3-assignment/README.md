@@ -1318,25 +1318,24 @@ This project demonstrates the practical use of Salesforce Flow, Validation Rules
 
 ---
 
-# 24. GitHub Project Structure
+## 24. GitHub Project Structure
 
-placement-management-system/
-│
-├── README.md
-│
-└── screenshots/
-    ├── 01-start-element.png
-    ├── 02-assignment-element.png
-    ├── 03-email-action.png
-    ├── 04-successful-execution.png
-    ├── 05-cgpa-validation-rule.png
-    ├── 06-application-date-validation-rule.png
-    ├── 07-mandatory-fields-validation-rule.png
-    ├── 08-offer-letter-flow.png
-    ├── 09-offer-letter-record.png
-    └── 10-flow-canvas.png
+```mermaid
+flowchart TD
+    A["placement-management-system"] --> B["README.md"]
+    A --> C["screenshots"]
 
----
+    C --> D["01-start-element.png"]
+    C --> E["02-assignment-element.png"]
+    C --> F["03-email-action.png"]
+    C --> G["04-successful-execution.png"]
+    C --> H["05-cgpa-validation-rule.png"]
+    C --> I["06-application-date-validation-rule.png"]
+    C --> J["07-mandatory-fields-validation-rule.png"]
+    C --> K["08-offer-letter-flow.png"]
+    C --> L["09-offer-letter-record.png"]
+    C --> M["10-flow-canvas.png"]
+```
 
 # Final Submission
 
