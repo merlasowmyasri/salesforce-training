@@ -1320,8 +1320,6 @@ This project demonstrates the practical use of Salesforce Flow, Validation Rules
 
 # 24. GitHub Project Structure
 
-The final project structure is:
-
 placement-management-system/
 │
 ├── README.md
