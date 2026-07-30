@@ -1303,14 +1303,18 @@ This project demonstrates the practical use of Salesforce Flow, Validation Rules
 
 ---
 
-
 # 23. Screenshots
 
-
-
-
-
-
+- [01-start-element.png](screenshots/01-start-element.png)
+- [02-assignment-element.png](screenshots/02-assignment-element.png)
+- [03-email-action.png](screenshots/03-email-action.png)
+- [04-successful-execution.png](screenshots/04-successful-execution.png)
+- [05-cgpa-validation-rule.png](screenshots/05-cgpa-validation-rule.png)
+- [06-application-date-validation-rule.png](screenshots/06-application-date-validation-rule.png)
+- [07-mandatory-fields-validation-rule.png](screenshots/07-mandatory-fields-validation-rule.png)
+- [08-offer-letter-flow.png](screenshots/08-offer-letter-flow.png)
+- [09-offer-letter-record.png](screenshots/09-offer-letter-record.png)
+- [10-flow-canvas.png](screenshots/10-flow-canvas.png)
 
 ---
 
