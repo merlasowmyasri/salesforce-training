@@ -1241,29 +1241,27 @@ Through this project, I learned:
 # 19. Final Automation Architecture
 
 PLACEMENT MANAGEMENT SYSTEM
-        |
-        ↓
+↓
 APPLICATION
-        |
-        ├── Validation Rules
-        |       |
-        |       └── Data Quality
-        |
-        ├── Record-Triggered Flow
-        |       |
-        |       ├── Application Date
-        |       |
-        |       └── Email Notification
-        |
-        └── Application Status
-                |
-                └── Status = Selected
-                        |
-                        ↓
-                After-Save Flow
-                        |
-                        ↓
-                Create Offer Letter
+↓
+Validation Rules
+↓
+Data Quality
+↓
+Record-Triggered Flow
+↓
+Application Date
+↓
+Email Notification
+↓
+Application Status
+↓
+Status = Selected
+↓
+After-Save Flow
+↓
+Create Offer Letter
+
 
 ---
 
@@ -1320,10 +1318,10 @@ This project demonstrates the practical use of Salesforce Flow, Validation Rules
 
 # Final Submission
 
-# Submitted By: Merla Sowmya Sri
+Submitted By: Merla Sowmya Sri
 
-# Roll Number: 23PA1A05F1
+Roll Number: 23PA1A05F1
 
-# Project: Salesforce Placement Management System
+Project: Salesforce Placement Management System
 
-# Day: Day 3
+Day: Day 3
