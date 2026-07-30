@@ -1318,32 +1318,12 @@ This project demonstrates the practical use of Salesforce Flow, Validation Rules
 
 ---
 
-## 24. GitHub Project Structure
-
-placement-management-system/
-        ↓
-        ├── README.md
-        │
-        └── screenshots/
-                ↓
-                ├── 01-start-element.png
-                ├── 02-assignment-element.png
-                ├── 03-email-action.png
-                ├── 04-successful-execution.png
-                ├── 05-cgpa-validation-rule.png
-                ├── 06-application-date-validation-rule.png
-                ├── 07-mandatory-fields-validation-rule.png
-                ├── 08-offer-letter-flow.png
-                ├── 09-offer-letter-record.png
-                └── 10-flow-canvas.png
-```
-
 # Final Submission
 
-**Submitted By:** Merla Sowmya Sri
+# Submitted By: Merla Sowmya Sri
 
-**Roll Number:** 23PA1A05F1
+# Roll Number: 23PA1A05F1
 
-**Project:** Salesforce Placement Management System
+# Project: Salesforce Placement Management System
 
-**Day:** Day 3
+# Day: Day 3
