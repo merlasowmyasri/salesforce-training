@@ -1240,27 +1240,7 @@ Through this project, I learned:
 
 # 19. Final Automation Architecture
 
-PLACEMENT MANAGEMENT SYSTEM
-↓
-APPLICATION
-↓
-Validation Rules
-↓
-Data Quality
-↓
-Record-Triggered Flow
-↓
-Application Date
-↓
-Email Notification
-↓
-Application Status
-↓
-Status = Selected
-↓
-After-Save Flow
-↓
-Create Offer Letter
+PLACEMENT MANAGEMENT SYSTEM → APPLICATION → Validation Rules → Data Quality → Record-Triggered Flow → Application Date → Email Notification → Application Status → Status = Selected → After-Save Flow → Create Offer Letter
 
 
 ---
