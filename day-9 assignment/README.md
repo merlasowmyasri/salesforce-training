@@ -398,7 +398,17 @@ These screenshots demonstrate the working behaviour of the Sprint-09 LWC impleme
 
 ---
 
-## 20. Repository Structure
+## 20. Student Details
+
+| Field | Details |
+|---|---|
+| Name | Merla Sowmya Sri |
+| Roll No | 23PA1A05F1 |
+| Branch | CSE |
+| Project | Student Placement Portal |
+| Assignment | Day-9 Assignment |
+
+## 21. Repository Structure
 
 The final GitHub repository contains the README, screenshots and complete Salesforce source code.
 
@@ -419,18 +429,3 @@ Sprint-09-LWC/
                     ├── eligibleJobs.html
                     ├── eligibleJobs.js
                     └── eligibleJobs.js-meta.xml
-
-## 18. Submission Details
-
-| Field | Details |
-|---|---|
-| Name | Merla Sowmya Sri |
-| Roll No | 23PA1A05F1 |
-| Project | Student Placement Portal |
-| Sprint | Sprint-09-LWC |
-| Component | Eligible Jobs |
-| Platform | Salesforce |
-| Frontend | Lightning Web Components |
-| Backend | Apex |
-| Database Access | SOQL |
-| Repository | GitHub |
