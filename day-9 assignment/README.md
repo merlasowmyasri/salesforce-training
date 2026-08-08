@@ -1,5 +1,14 @@
 # Sprint-09-LWC – Student Placement Portal
 
+## Submission Details
+
+| Field | Details |
+|---|---|
+| Name | Merla Sowmya Sri |
+| Roll No | 23PA1A05F1 |
+| Project | Student Placement Portal |
+
+
 ---
 
 ## 1. Sprint Objective
@@ -398,17 +407,7 @@ These screenshots demonstrate the working behaviour of the Sprint-09 LWC impleme
 
 ---
 
-## 20. Student Details
-
-| Field | Details |
-|---|---|
-| Name | Merla Sowmya Sri |
-| Roll No | 23PA1A05F1 |
-| Branch | CSE |
-| Project | Student Placement Portal |
-| Assignment | Day-9 Assignment |
-
-## 21. Repository Structure
+## 20. Repository Structure
 
 The final GitHub repository contains the README, screenshots and complete Salesforce source code.
 
