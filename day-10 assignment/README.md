@@ -798,8 +798,9 @@ The most important takeaway is that a good application is created when component
 
 # 📋 Submission Details
 
-| Detail                    | Information                                                                                           |
-| ------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Sprint**                | Sprint 10                                                                                             |                                                  |                                      |
-| **Project**               | Student Placement Portal                                                                              |
-| **Student Name**          | **MERLA SOWMYA SRI**                                                                                  |                                                                         |
+| Detail                    | Information                                                           
+| ------------------------- | ----------------------------------------------------------------------
+| **Sprint**                | Sprint 10                                       |
+| **Project**               | Student Placement Portal                                              
+| **Student Name**          | **MERLA SOWMYA SRI** 
+| **Roll No**               | **23PA1A05F1** 
