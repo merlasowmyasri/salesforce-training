@@ -114,7 +114,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     .cards-container {
         grid-template-columns: 1fr;

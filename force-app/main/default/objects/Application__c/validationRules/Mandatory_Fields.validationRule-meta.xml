@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_Fields</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+    ISBLANK(Student__c),
+    ISBLANK(Job__c)
+)</errorConditionFormula>
+    <errorMessage>Student and Job are required.</errorMessage>
+</ValidationRule>
