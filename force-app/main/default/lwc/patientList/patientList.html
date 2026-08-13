@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Patient List">
+
+        <template if:true={patients.data}>
+            <template for:each={patients.data} for:item="patient">
+
+                <div key={patient.Id} class="slds-p-around_small">
+
+                    <p>
+                        <strong>Name:</strong> {patient.Name}
+                    </p>
+
+                    <p>
+                        <strong>Gender:</strong> {patient.Gender__c}
+                    </p>
+
+                    <hr/>
+
+                </div>
+
+            </template>
+        </template>
+
+        <template if:true={patients.error}>
+            <p>Error loading patients.</p>
+        </template>
+
+    </lightning-card>
+</template>
