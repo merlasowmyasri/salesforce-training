@@ -1,0 +1,25 @@
+<template>
+
+    <lightning-card title="Student Placement Portal">
+
+        <div class="slds-p-around_medium">
+
+            <!-- Student Profile -->
+            <c-student-profile
+                record-id={recordId}
+                onprofilesaved={handleProfileSaved}>
+            </c-student-profile>
+
+
+            <!-- Eligible Jobs -->
+            <div class="slds-m-top_large">
+
+                <c-eligible-jobs></c-eligible-jobs>
+
+            </div>
+
+        </div>
+
+    </lightning-card>
+
+</template>

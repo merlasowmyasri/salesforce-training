@@ -1,0 +1,131 @@
+<template>
+
+    <lightning-card title="Eligible Jobs">
+
+        <div class="slds-p-around_medium">
+
+            <!-- Loading State -->
+            <template if:true={isLoading}>
+
+                <div class="slds-align_absolute-center slds-p-around_large">
+
+                    <lightning-spinner
+                        alternative-text="Loading jobs"
+                        size="medium">
+                    </lightning-spinner>
+
+                </div>
+
+            </template>
+
+
+            <!-- Success Message -->
+            <template if:true={successMessage}>
+
+                <div
+                    class="slds-notify slds-notify_alert slds-alert_success slds-m-bottom_medium"
+                    role="alert">
+
+                    {successMessage}
+
+                </div>
+
+            </template>
+
+
+            <!-- Error Message -->
+            <template if:true={error}>
+
+                <div
+                    class="slds-notify slds-notify_alert slds-alert_error slds-m-bottom_medium"
+                    role="alert">
+
+                    {error}
+
+                </div>
+
+            </template>
+
+
+            <!-- Jobs -->
+            <template if:true={hasJobs}>
+
+                <template for:each={jobs} for:item="job">
+
+                    <article
+                        key={job.Id}
+                        class="slds-card slds-m-bottom_medium">
+
+                        <div class="slds-card__header slds-grid">
+
+                            <header class="slds-media slds-media_center">
+
+                                <div class="slds-media__body">
+
+                                    <h2 class="slds-card__header-title">
+                                        {job.Name}
+                                    </h2>
+
+                                </div>
+
+                            </header>
+
+                        </div>
+
+
+                        <div class="slds-card__body slds-card__body_inner">
+
+                            <p class="slds-m-bottom_x-small">
+                                <strong>Minimum CGPA:</strong>
+                                {job.Minimum_CGPA__c}
+                            </p>
+
+                            <p class="slds-m-bottom_x-small">
+                                <strong>Allowed Backlogs:</strong>
+                                {job.Allowed_Backlogs__c}
+                            </p>
+
+                            <p class="slds-m-bottom_x-small">
+                                <strong>Eligible Branches:</strong>
+                                {job.Eligible_Branches__c}
+                            </p>
+
+                            <p class="slds-m-bottom_medium">
+                                <strong>Closing Date:</strong>
+                                {job.Closing_Date__c}
+                            </p>
+
+
+                            <lightning-button
+                                label="Apply"
+                                variant="brand"
+                                value={job.Id}
+                                onclick={handleApply}>
+                            </lightning-button>
+
+                        </div>
+
+                    </article>
+
+                </template>
+
+            </template>
+
+
+            <!-- Empty State -->
+            <template if:true={showEmptyState}>
+
+                <c-empty-state
+                    title="No Eligible Jobs"
+                    message="No eligible opportunities are available right now. Keep your profile updated and check again as new companies are added."
+                    action-label="Update Profile"
+                    onaction={handleUpdateProfile}>
+                </c-empty-state>
+
+            </template>
+
+        </div>
+
+    </lightning-card>
+
+</template>
